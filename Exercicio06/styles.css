@@ -1,0 +1,24 @@
+body{
+	background-color: #000;
+}
+h1{
+	color: yellow;
+}
+div{
+	color: pink;
+}
+input{
+	width: 40vh;
+	height: 5vh;
+	border-radius: 7px;
+	border-color: yellow;
+	background:none;
+	color: yellow;
+}
+button{
+	width: 20vh;
+	height: 5vh;
+	color: black;
+	background-color: yellow;
+	cursor: pointer;
+}

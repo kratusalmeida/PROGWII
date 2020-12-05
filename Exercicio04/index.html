@@ -7,21 +7,44 @@
     <link rel="icon" type="image/png" sizes="32x32" href="./public/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./public/favicon-16x16.png">
     <link rel="manifest" href="./public/manifest.json">
+    <link rel="stylesheet" type="text/css" href="styles.css">
     <title>Exercício</title>
 </head>
 <body>
-    <div class="mensagens">
-        <!-- Adicione as mensagens de erro, caso existam -->
-    </div>
+    <div align="center">
+        <h1>Calcular Média do Aluno</h1>
+    </div>                                      
+    <div class="mensagens" align="center" id="mensagens"></div>
 
-    <div class="formulario">
-        <!-- Adicione os Campos do Formulário -->
+    <div class="formulario" align="center">
+        <select id="materia">
+            <option value="1">Matemática</option>
+            <option value="2">Português</option>
+            <option value="3">Geografia</option>
+        </select>
+        <input type="Text" name="nome" id="nome">
+        <br>
+        <br>
+        <input type="number" name="num1" id="num1">
+        <br>
+        <br>
+        <input type="number" name="num2" id="num2">
+        <br>
+        <br>
+        <input type="number" name="num3" id="num3">
+        <br>
+        <br>
+        <button onclick="calcular()">Calcular</button>
     </div>
     
-    <div class="resultados">
-        <!-- Adicione o Resultado -->
+    <div class="resultados" align="center">
+        <p class="soma" id="soma"></p>
+        <p class="sub" id="sub"></p>
+        <p class="mult" id="mult"></p>
+        <p class="div" id="div"></p>
+        <p class="resto" id="resto"></p>
     </div>
 
-    <script src="<!-- Nome do Arquivo main.js -->" type="text/javascript"></script>
+    <script type="text/javascript" src="main.js"></script>
 </body>
 </html>
